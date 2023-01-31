@@ -6,5 +6,11 @@ for (let i = 9; i < 18; i++) {
     const inputTextarea = $('<textarea>');
     inputTextarea.addClass('textarea');
     newDiv.append(inputTextarea);
+    const saveBtn = $('<button>').text('Save');
+    saveBtn.addClass('saveBtn');
+    saveBtn.onclick = function () {
+        localStorage.setItem();
+    };
+    newDiv.append(saveBtn);
     $('.container').append(newDiv);
 }
