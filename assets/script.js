@@ -43,5 +43,7 @@ $("button").click(function (event) {
 
     taskArray[clickedHour] = text;
 
-    localStorage.setItem("saveTasks", JSON.stringify(taskArray))
+    localStorage.setItem("saveTasks", JSON.stringify(taskArray));
+
+    alert("Save successfull!");
 })
