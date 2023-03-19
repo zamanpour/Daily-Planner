@@ -1,8 +1,12 @@
 # Daily Planner
 
-## Add Tasks
+## Description
 
 you can go to the https://zamanpour.github.io/Daily-Planner/ and add your tasks to the schedule
 
 ## Result
-Such as: <img src='images/05-third-party-apis-homework-demo.gif'>
+Such as: <img src='assets/Work-Day-Scheduler.png'>
+
+
+## Features
+It uses APIs (Jquery & moment) and Localstorage
