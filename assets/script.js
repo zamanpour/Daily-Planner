@@ -45,5 +45,5 @@ $("button").click(function (event) {
 
     localStorage.setItem("saveTasks", JSON.stringify(taskArray));
 
-    alert("Save successfull!");
+    alert("Plan for time " + clickedHour + " is saved successfull!");
 })
